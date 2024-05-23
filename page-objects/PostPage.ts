@@ -39,7 +39,7 @@ export class PostPage {
       this.submitButton = page.getByText('Save')
     }
   
-    // Define Publisher page methods
+    // Define Post page methods
     async visit() {
       await this.page.goto('http://localhost:3000/admin/resources/Post')
     }
